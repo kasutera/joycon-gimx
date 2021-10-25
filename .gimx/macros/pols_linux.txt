@@ -1,11 +1,16 @@
 # for riking/joycon
-# 0, 3 -> 4, 5
 # 15, 16 -> 17, 18
+#
 # left
-#  - input 0
-#  - output 3
+#  - input 15
+#  - output 17
 #  - alias F3
 #  - for TRIGGER F1
+# right
+#  - input 16
+#  - output 18
+#  - alias F4
+#  - for TRIGGER F2
 
 MACRO JBUTTONDOWN 15
 KEYDOWN F1
