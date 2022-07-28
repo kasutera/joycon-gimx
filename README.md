@@ -3,7 +3,7 @@
 - GIMX
     - https://github.com/matlo/GIMX
 - riking/joycon
-    - github.com/riking/joycon
+    - https://github.com/riking/joycon
     - 左右をまとめるjoy-conドライバ
     - 左右バラバラでもGIMXに認識されるが、マクロとの相性が悪かったため使用
 
@@ -35,7 +35,12 @@
 - sudo apt update
 - sudo apt upgrade -y
 - sudo raspi-config update
+- gimxのインストール
+    - `bin/install_gimx.sh`
+- joyconドライバのインストール
+    - `bin/install_riking_joycon.sh`
 - gimx-loader
     - ファームウェアをatmega32u4に読ませる
 - gimx-config
     - Joy-Conの各ボタンをDualShock4に対応させる
+        - `.gimx/config/joycon_driver_ps4.xml`
