@@ -10,6 +10,7 @@
 ## 使ったもの
 - Raspberry Pi 3 Model B
     - Raspberry Pi OS kernel 5.10
+    - Legacy (Buster) でなければならない (GIMX for raspbianの関係)
 - DIY USB adapter for GIMX
     - KEYESTUDIO 5V Leonardo R3
         - Arduino Leonardo 互換機
