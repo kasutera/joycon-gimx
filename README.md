@@ -6,6 +6,8 @@
     - https://github.com/riking/joycon
     - 左右をまとめるjoy-conドライバ
     - 左右バラバラでもGIMXに認識されるが、マクロとの相性が悪かったため使用
+    - Raspberry Pi 3だとCPUが暴走する (https://github.com/riking/joycon/issues/65) のでforkして適当に修正した
+        - https://github.com/kasutera/joycon
 
 ## 使ったもの
 - Raspberry Pi 3 Model B
