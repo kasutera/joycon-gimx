@@ -39,9 +39,9 @@
     - その場合、`DISPLAY=:0.0` と環境変数を設定する必要がある
 
 ## セットアップ
-- sudo apt update
-- sudo apt upgrade -y
-- sudo raspi-config update
+- `sudo apt update`
+- `sudo apt upgrade -y`
+- `sudo raspi-config update`
 - gimxのインストール
     - `bin/install_gimx.sh`
 - Joy-Conドライバのインストール
